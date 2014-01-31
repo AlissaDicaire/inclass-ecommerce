@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #FFAE00;
+	background-image: linear-gradient(to bottom, #00EBFF, #7499FF);
+	border-radius: 8px;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+	border: 2px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-bottom: 1.5rem;	
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: ##FFAE00;
+	background-image: linear-gradient(to bottom, #FFAE00, #ED8500);
+	box-shadow: 4px 4px 8px rgba(91,69,5,1.00);
+	border-radius: 30px;
+}
+
+h1 {
+	background-color: #C3EEF5;
+	display: inline-block;	
+}
