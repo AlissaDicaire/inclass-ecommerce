@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* For the vertical lists */
+
+.list-group {
+	list-style-type: none; 
+}
+
+.list-group-item {
+	display: block; /* so they staked ontop of each other */	
+}
+
+.list-group-item::before {
+	content: ""; /* removing bullets... if you were to put something in the "" like "HI" it would show that  */
+}
+
+/* For the horizontal lists */
+
+.list-group-item-inline {
+	display: inline-block;	
+}
+
