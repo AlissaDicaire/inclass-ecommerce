@@ -1,0 +1,8 @@
+.promo-small {
+	background-color: #85D45F;
+	border-radius: 10px;	
+}
+
+.promo-group .unit:last-child .promo-small {
+	background-color: rgba(36,173,2,1.00);
+}
